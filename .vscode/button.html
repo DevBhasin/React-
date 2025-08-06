@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Updation</title>
+
+<style>
+button
+{
+    border-radius: 4px;
+    border-color: rgb(2, 19, 13);
+    transition:0.1s;
+}
+
+button:hover
+{
+  background-color: #454545;
+  border-color: rgb(22, 125, 91);
+}
+
+</style>
+
+
+
+</head>
+<body style="background-color:#212121;color: beige;">
+    
+
+<h1>Chai aur React | Dev Bhasin</h1>
+
+<button onclick="addvalue()">Add Value </button>
+<button>Remove Value</button>
+
+</body>
+
+<script>
+let counter=0
+
+let addvalue=()=>{
+    counter++;
+    // console.log(counter);
+    let button=  document.querySelector('button')
+  button.innerHTML = `Add Value: ${counter}`
+
+  button.style.backgroundColor="chocolate"
+
+  setTimeout(()=>{
+    button.style.backgroundColor=""
+  },100)
+
+}
+
+
+
+</script>
+
+</html>
