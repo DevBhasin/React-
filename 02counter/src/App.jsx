@@ -26,7 +26,7 @@ let addvalue=()=>{
 
 //setCounter(()=>{})<- yeh ek call back function andar rakhta ha jo ki hidden hota ha but in case we want ki baar baar setCounter update kre hamaare counter ko to hmein call back function ke through counter dena padhega as a parameter of the call back function usk ebaad uske return waale area mein updation krenge isse har baar jab call back function call hoga to updated value hi vo la rha hoga as a parameter
 
-    if(counter<5 )
+    if(counter<365 )
   setCounter(++counter)//kitna imp tha bhai yeh post increament kr rhe the to bhai kaise do baar click pr ek value change ho rhi thi aur main soch rha tha css mein koi kami ha bc chalo now i know
 //ptaa h kya ho rha tha jaise ek baar click krne pr counter initial waala hi reh rha tha uske baad jab dobara click krte h tab va;ue change ho rhi thi bhai badhiy seekh mil gyi bc
 else
